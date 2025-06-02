@@ -90,3 +90,6 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+vim.cmd("cnoreabbrev m Man")
+vim.cmd("cnoreabbrev man Man")
+
