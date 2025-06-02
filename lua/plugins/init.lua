@@ -24,11 +24,11 @@ return {
   lazy = false, -- This plugin is already lazy
   },
 
-  {
-	"chrisgrieser/nvim-lsp-endhints",
-	event = "LspAttach",
-	opts = {}, -- required, even if empty
-  },
+  --{
+	--"chrisgrieser/nvim-lsp-endhints",
+	--event = "LspAttach",
+	--opts = {}, -- required, even if empty
+  --},
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
