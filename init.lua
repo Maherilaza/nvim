@@ -77,8 +77,11 @@ vim.cmd("colorscheme cosmic")
 vim.api.nvim_create_autocmd("VimEnter", {
   callback = function()
     vim.cmd("colorscheme cosmic")
+    vim.api.nvim_set_hl(0, "LineNr", { fg = "#FF8800" })
   end,
 })
 
 vim.o.laststatus = 2  -- always show statusline
 vim.o.showmode = true -- show -- INSERT -- etc.
+
+
