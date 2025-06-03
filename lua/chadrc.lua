@@ -21,7 +21,8 @@ M.base46 = {
             enabled = false
       },
       statusline = {
-      theme = "vscode"
+      --theme = "vscode"
+      enabled = false
   },
 }
 

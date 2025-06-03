@@ -72,4 +72,13 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.cmd("cnoreabbrev m Man")
 vim.cmd("cnoreabbrev man Man")
+vim.cmd("colorscheme cosmic")
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    vim.cmd("colorscheme cosmic")
+  end,
+})
+
+vim.o.laststatus = 2  -- always show statusline
+vim.o.showmode = true -- show -- INSERT -- etc.

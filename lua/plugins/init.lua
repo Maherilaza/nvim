@@ -24,6 +24,11 @@ return {
   lazy = false, -- This plugin is already lazy
   },
 
+  {
+  "lukas-reineke/indent-blankline.nvim",
+  enabled = false,
+ },
+
   --{
 	--"chrisgrieser/nvim-lsp-endhints",
 	--event = "LspAttach",
